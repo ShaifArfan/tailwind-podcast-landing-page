@@ -6,4 +6,7 @@
   .btn-primary {
     @apply inline-block bg-primary py-2 px-3 mt-5 text-sm md:text-lg rounded-md hover:bg-orange-500 capitalize;
   }
+  .btn-secondary {
+    @apply inline-block bg-transparent border border-primary py-1 px-4 text-xs md:text-sm rounded-md hover:bg-orange-500 capitalize;
+  }
 }

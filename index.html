@@ -13,21 +13,101 @@
   <link rel="stylesheet" href="./dist.css">
 </head>
 
-<body class="bg-zinc-900 text-white max-w-[1024px] w-[90%] mx-auto font-poppins">
-  <section class="min-h-screen flex  items-center md:flex-row flex-col-reverse">
-    <div class="flex-1 md:flex-auto w-full max-w-md md:w-40 md:pr-10 text-center md:text-left">
-      <h1 class="text-4xl md:text-[60px] font-bold text-primary leading-tight uppercase">The Audio People</h1>
-      <p class="text-sm md:text-md text-gray-200">Work with a world-class coach to grow as a leader, find career
-        clarity, or
-        accelerate
-        your job search.</p>
-      <a href="#" class="btn-primary">Start
-        Listening</a>
+<body class="bg-zinc-900 text-white  font-poppins">
+  <div class="max-w-[1024px] w-[90%] mx-auto">
+    <!-- Hero Section -->
+    <section class="min-h-screen flex  items-center md:flex-row flex-col-reverse">
+      <div class="flex-1 md:flex-auto w-full max-w-md md:w-40 md:pr-10 text-center md:text-left">
+        <h1 class="text-4xl md:text-[60px] font-bold text-primary leading-tight uppercase">The Audio People</h1>
+        <p class="text-sm md:text-md text-gray-200">Work with a world-class coach to grow as a leader, find career
+          clarity, or
+          accelerate
+          your job search.</p>
+        <a href="#" class="btn-primary">Start
+          Listening</a>
+      </div>
+      <div class="flex-1 md:flex-auto md:w-60 w-full flex items-center">
+        <div class="w-full h-[50vh]  md:h-screen overflow-hidden relative">
+          <img class="w-full h-full md:h-[150vh] object-contain md:absolute md:top-[-25%]"
+            src="./images/hero_section_img.png" alt="hero section img">
+        </div>
+      </div>
+  </div>
+  </section>
+
+  <!-- Hosts Section -->
+  <section class="min-h-screen flex items-center justify-center bg-orange-100 py-[100px]">
+    <div class="max-w-[1024px] w-[90%] mx-auto">
+      <div class="text-center max-w-lg mx-auto">
+        <h1 class="text-primary text-4xl font-bold">The Hosts</h1>
+        <p class="text-sm md:text-md text-gray-700 mt-3">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore corporis iste, doloribus corrupti autem
+        </p>
+      </div>
+      <div class="flex gap-5 mt-11 max-md:flex-col ">
+        <div class="p-5 bg-orange-200 rounded-xl flex-1">
+          <img src="./images/host-1.png" alt="Host 1" class="rounded-lg object-cover w-full">
+          <h2 class="text-gray-700 text-xl font-medium mt-3">Kamal Azad</h2>
+          <p class="text-sm md:text-md text-gray-700 mt-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore corporis iste, doloribus corrupti autem
+          </p>
+        </div>
+        <div class="p-5 bg-slate-200 rounded-lg flex-1">
+          <img src="./images/host-2.png" alt="Host 1" class="rounded-xl object-cover w-full">
+          <h2 class="text-gray-700 text-xl font-medium mt-3">Hasan Rashid</h2>
+          <p class="text-sm md:text-md text-gray-700 mt-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore corporis iste, doloribus corrupti autem
+          </p>
+        </div>
+      </div>
     </div>
-    <div class="flex-1 md:flex-auto md:w-60 w-full flex items-center">
-      <div class="w-full h-[50vh]  md:h-screen overflow-hidden relative">
-        <img class="w-full h-full md:h-[150vh] object-contain md:absolute md:top-[-25%]"
-          src="./images/hero_section_img.png" alt="hero section img">
+  </section>
+
+  <!-- most listened section -->
+  <section class="flex items-center justify-center bg-zinc-900 py-[100px]">
+    <div class="max-w-[1024px] w-[90%] mx-auto">
+
+      <h1 class="text-primary text-4xl font-bold text-center">Most Listened <br> Episodes</h1>
+      <div class="mt-10 max-w-[100%] overflow-x-scroll rounded-lg">
+        <table class="w-fit bg-zinc-700 rounded-lg overflow-hidden min-w-[600px] mx-auto text-center">
+          <thead class="w-full">
+            <tr class=" bg-zinc-800">
+              <th class="p-3 ">Gusts</th>
+              <th class="p-3 ">Data</th>
+              <th class="p-3  pr-4">Link</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b border-gray-500">
+              <td class="p-3">Jhon Doe, Shaif Arfan</td>
+              <td class="p-3 ">05/7/2022</td>
+              <td class="p-3">
+                <a href="#" class="btn-secondary">Listen</a>
+              </td>
+            </tr>
+            <tr class="border-b border-gray-500">
+              <td class="p-3">Jhon Doe, Shaif Arfan</td>
+              <td class="p-3 ">05/7/2022</td>
+              <td class="p-3">
+                <a href="#" class="btn-secondary">Listen</a>
+              </td>
+            </tr>
+            <tr class="border-b border-gray-500">
+              <td class="p-3">Jhon Doe, Shaif Arfan</td>
+              <td class="p-3 ">05/7/2022</td>
+              <td class="p-3">
+                <a href="#" class="btn-secondary">Listen</a>
+              </td>
+            </tr>
+            <tr>
+              <td class="p-3">Jhon Doe, Shaif Arfan</td>
+              <td class="p-3 ">05/7/2022</td>
+              <td class="p-3">
+                <a href="#" class="btn-secondary">Listen</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </div>
   </section>
