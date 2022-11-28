@@ -5,57 +5,57 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>The Audio People</title>
+  <title>Document</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,700;0,800;1,100&display=swap"
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="./dist.css">
 </head>
 
-<body class="bg-zinc-900 text-white  font-poppins">
-  <div class="max-w-[1024px] w-[90%] mx-auto">
-    <!-- Hero Section -->
-    <section class="min-h-screen flex  items-center md:flex-row flex-col-reverse">
-      <div class="flex-1 md:flex-auto w-full max-w-md md:w-40 md:pr-10 text-center md:text-left">
+<body class="bg-zinc-900 text-gray-200 font-poppins">
+  <!-- hero section -->
+  <section class="min-h-screen flex items-center justify-center">
+    <div class="max-w-[1024px] w-[90%] mx-auto flex  items-center justify-center flex-col-reverse md:flex-row gap-10">
+      <div class="flex-1  text-center md:text-left">
         <h1 class="text-4xl md:text-[60px] font-bold text-primary leading-tight uppercase">The Audio People</h1>
-        <p class="text-sm md:text-md text-gray-200">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga aspernatur nulla autem atque nostrum sapiente,
-        </p>
-        <a href="#" class="btn-primary">Start
-          Listening</a>
+        <p class="text-sm md:text-lg">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore esse unde
+          sunt possimus minus aut
+          voluptas asperiores </p>
+        <a href="#" class="btn-primary">Start Listening</a>
       </div>
-      <div class="flex-1 md:flex-auto md:w-60 w-full flex items-center">
-        <div class="w-full h-[50vh]  md:h-screen overflow-hidden relative">
+      <div class="flex-1 ">
+        <div class="w-full h-[50vh] md:h-screen overflow-hidden relative">
           <img class="w-full h-full md:h-[150vh] object-contain md:absolute md:top-[-25%]"
-            src="./images/hero_section_img.png" alt="hero section img">
+            src="./images/hero_section_img.png" alt="">
         </div>
       </div>
-  </div>
+    </div>
   </section>
 
-  <!-- Hosts Section -->
-  <section class="min-h-screen flex items-center justify-center bg-orange-100 py-[100px]">
+  <!-- hosts section -->
+
+  <section class="min-h-screen flex items-center justify-center bg-orange-100 py-[100px] text-gray-700">
     <div class="max-w-[1024px] w-[90%] mx-auto">
       <div class="text-center max-w-lg mx-auto">
         <h1 class="text-primary text-4xl font-bold">The Hosts</h1>
-        <p class="text-sm md:text-md text-gray-700 mt-3">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore corporis iste, doloribus corrupti autem
-        </p>
+        <p class="text-sm md:text-base text-gray-700 mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+          Repudiandae, illum
+          beatae similique et cum</p>
       </div>
-      <div class="flex gap-5 mt-11 max-md:flex-col ">
-        <div class="p-5 bg-orange-200 rounded-xl flex-1">
-          <img src="./images/host-1.png" alt="Host 1" class="rounded-lg object-cover w-full">
+      <div class="flex gap-5 mt-11 md:flex-row flex-col ">
+        <div class="bg-orange-200 p-5 rounded-xl flex-1">
+          <img src="./images/host-1.png" alt="host-1" class="rounded-lg object-cover w-full">
           <h2 class="text-gray-700 text-xl font-medium mt-3">Kamal Azad</h2>
-          <p class="text-sm md:text-md text-gray-700 mt-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore corporis iste, doloribus corrupti autem
+          <p class="text-sm md:text-base mt-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem saepe omnis numquam quasi
           </p>
         </div>
-        <div class="p-5 bg-slate-200 rounded-lg flex-1">
-          <img src="./images/host-2.png" alt="Host 1" class="rounded-xl object-cover w-full">
-          <h2 class="text-gray-700 text-xl font-medium mt-3">Hasan Rashid</h2>
-          <p class="text-sm md:text-md text-gray-700 mt-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore corporis iste, doloribus corrupti autem
+        <div class="bg-slate-200 p-5 rounded-xl flex-1">
+          <img src="./images/host-2.png" alt="host-1" class="rounded-lg object-cover w-full">
+          <h2 class="text-gray-700 text-xl font-medium mt-3">Hasan Rahid</h2>
+          <p class="text-sm md:text-base mt-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem saepe omnis numquam quasi
           </p>
         </div>
       </div>
@@ -63,44 +63,45 @@
   </section>
 
   <!-- most listened section -->
-  <section class="flex items-center justify-center bg-zinc-900 py-[100px]">
-    <div class="max-w-[1024px] w-[90%] mx-auto">
 
-      <h1 class="text-primary text-4xl font-bold text-center">Most Listened <br> Episodes</h1>
-      <div class="mt-10 max-w-[100%] overflow-x-scroll rounded-lg">
-        <table class="w-fit bg-neutral-800 rounded-lg overflow-hidden min-w-[600px] mx-auto text-center">
-          <thead class="w-full">
-            <tr class=" bg-zinc-700">
-              <th class="p-3 ">Gusts</th>
-              <th class="p-3 ">Data</th>
-              <th class="p-3  pr-4">Link</th>
+  <section class="flex items-center justify-center  py-[100px] ">
+    <div class="max-w-[1024px] w-[90%] mx-auto">
+      <h1 class="text-primary text-4xl font-bold text-center">Most listened <br> Episodes</h1>
+
+      <div class="mt-10 max-w-[100%] overflow-x-auto rounded-lg">
+        <table class="w-fit bg-neutral-800 rounded-lg min-w-[600px] text-center mx-auto overflow-hidden">
+          <thead>
+            <tr class="bg-zinc-700">
+              <th class="p-3">Gusts</th>
+              <th class="p-3">Date</th>
+              <th class="p-3">Link</th>
             </tr>
           </thead>
           <tbody>
             <tr class="border-b border-gray-500">
-              <td class="p-3">Jhon Doe, Shaif Arfan</td>
-              <td class="p-3 ">05/7/2022</td>
+              <td class="p-3">John Doe, Shaif Arfan</td>
+              <td class="p-3">05/8/2022</td>
               <td class="p-3">
                 <a href="#" class="btn-secondary">Listen</a>
               </td>
             </tr>
             <tr class="border-b border-gray-500">
-              <td class="p-3">Jhon Doe, Shaif Arfan</td>
-              <td class="p-3 ">05/7/2022</td>
+              <td class="p-3">John Doe, Shaif Arfan</td>
+              <td class="p-3">05/8/2022</td>
               <td class="p-3">
                 <a href="#" class="btn-secondary">Listen</a>
               </td>
             </tr>
             <tr class="border-b border-gray-500">
-              <td class="p-3">Jhon Doe, Shaif Arfan</td>
-              <td class="p-3 ">05/7/2022</td>
+              <td class="p-3">John Doe, Shaif Arfan</td>
+              <td class="p-3">05/8/2022</td>
               <td class="p-3">
                 <a href="#" class="btn-secondary">Listen</a>
               </td>
             </tr>
             <tr>
-              <td class="p-3">Jhon Doe, Shaif Arfan</td>
-              <td class="p-3 ">05/7/2022</td>
+              <td class="p-3">John Doe, Shaif Arfan</td>
+              <td class="p-3">05/8/2022</td>
               <td class="p-3">
                 <a href="#" class="btn-secondary">Listen</a>
               </td>
@@ -112,25 +113,19 @@
   </section>
 
   <!-- stats section -->
-  <section class="flex items-center justify-center bg-zinc-900 py-[100px]">
-    <div class="max-w-[800px] w-[90%] mx-auto ">
-      <div class="flex gap-5 justify-between max-sm:flex-col max-sm:gap-10">
+  <section class="flex items-center justify-center  py-[100px] ">
+    <div class="max-w-[800px] w-[90%] mx-auto">
+      <div class="flex justify-between md:flex-row flex-col md:gap-5 gap-10">
         <div class="text-center">
-          <h1 class="text-[80px] font-bold text-primary leading-tight uppercase">
-            50+
-          </h1>
+          <h1 class="text-[80px] font-bold text-primary leading-tight uppercase">50+</h1>
           <p class="text-xl">episodes</p>
         </div>
         <div class="text-center">
-          <h1 class="text-[80px] font-bold text-primary leading-tight uppercase">
-            100+
-          </h1>
+          <h1 class="text-[80px] font-bold text-primary leading-tight uppercase">100+</h1>
           <p class="text-xl">hrs of talk</p>
         </div>
         <div class="text-center">
-          <h1 class="text-[80px] font-bold text-primary leading-tight uppercase">
-            80+
-          </h1>
+          <h1 class="text-[80px] font-bold text-primary leading-tight uppercase">80+</h1>
           <p class="text-xl">guests</p>
         </div>
       </div>
@@ -138,27 +133,27 @@
   </section>
 
   <!-- cta -->
-  <section
-    class="flex items-center justify-center bg-zinc-900 min-h-[500px] max-md:min-h-[300px] bg-cta-img bg-cover bg-center">
+
+  <section class="flex items-center justify-center  py-[100px] bg-cta-img bg-cover bg-center">
     <div class="max-w-[800px] w-[90%] mx-auto">
-      <h1 class="text-4xl md:text-[80px] font-extrabold text-white leading-tight uppercase">Don't miss the next episode
-      </h1>
+      <h1 class="text-4xl md:text-[80px] font-bold leading-tight uppercase">Don't miss the next episode</h1>
       <a href="#" class="btn-primary">Follow Now</a>
     </div>
   </section>
 
   <!-- footer -->
-  <section class="flex items-center justify-center bg-zinc-900 py-[100px]">
-    <div class="max-w-[800px] w-[90%] mx-auto text-center">
-      <h1 class="text-4xl md:text-[80px] font-extrabold text-primary leading-tight uppercase ">
-        The Audio People
-      </h1>
-      <p class="text-md md:text-lg text-gray-200 max-w-md mx-auto my-3 ">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga aspernatur nulla autem atque nostrum sapiente,
-      </p>
-      <a href="#" class="btn-primary">Listen Now</a>
+  <section class="flex items-center justify-center  py-[100px] ">
+    <div class="max-w-[500px] w-[90%] mx-auto text-center">
+      <h1 class="text-4xl md:text-[80px] font-extrabold text-primary leading-tight uppercase">The Audio People</h1>
+      <p class="text-base md:text-lg text-gray-200  my-3 ">Lorem ipsum dolor sit amet
+        consectetur
+        adipisicing elit.
+        Nulla error est dolores aut voluptatibus repellat,
+        temporibus nostru </p>
     </div>
   </section>
+
+
 </body>
 
 </html>
