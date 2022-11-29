@@ -6,7 +6,7 @@
 
 **live Preview: [https://tailwind-podcast-langingpage.surge.sh](https://tailwind-podcast-langingpage.surge.sh)**
 
-**Watch on YouTube: [coming soon](https://youtube.com/@webcifar)**
+**Watch on YouTube: [https://youtu.be/Ns3Qu_xwZXw](https://youtu.be/Ns3Qu_xwZXw)**
 
 ---
 
